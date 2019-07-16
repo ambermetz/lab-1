@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #69696a;
+}
+
+.company-name {
+  color: #000;
+}
+
+body {
+  background: #f9fafc;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hire-us {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  background: #000;
+  width: 100%;
+}
+
+p {
+  border-left: 3px solid #69696a;
+  padding-left: 10px;
+}
+
+.scroll-down {
+  color: #fff;
+  background: #000;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
