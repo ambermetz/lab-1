@@ -23,10 +23,11 @@ body {
   color: #fff;
   padding-top: 8px;
   padding-bottom: 8px;
-  border-radius: 15px;
+  border-radius: 117px;
   background: #000;
   width: 100%;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 p,
@@ -45,8 +46,9 @@ p {
   width: 100%;
   padding-top: 8px;
   padding-bottom: 8px;
-  border-radius: 15px;
+  border-radius: 17px;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -60,7 +62,6 @@ p {
 
   .hire-us {
     width: 100px;
-    padding-left: 10px;
   }
 
   nav a {
@@ -72,7 +73,7 @@ p {
 
   .menu,
   .company-name {
-    padding-top: 5px;
+    padding-top: 8px;
   }
 
   .menu,
@@ -118,7 +119,7 @@ p {
     height: 150px;
     border-radius: 100%;
     right: 10px;
-    top: 205px;
+    top: 225px;
   }
 
   .circle3 {
@@ -128,11 +129,12 @@ p {
     height: 200px;
     border-radius: 100%;
     right: 10px;
-    top: 310px;
+    top: 330px;
   }
 
   footer {
     position: fixed;
+    width: 120px;
     left: 50%;
     bottom: 0;
     transform: translate(-50 -50);
