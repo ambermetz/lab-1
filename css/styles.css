@@ -48,3 +48,94 @@ p {
   border-radius: 15px;
   font-family: "Open Sans", sans-serif;
 }
+
+@media only screen and (min-width: 768px) {
+  header,
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .hire-us {
+    width: 100px;
+    padding-left: 10px;
+  }
+
+  nav a {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    padding: 0px 15px 0px 0px;
+  }
+
+  .menu,
+  .company-name {
+    padding-top: 5px;
+  }
+
+  .menu,
+  .company-name,
+  .hire-us {
+    margin-top: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+  }
+
+  .company-name {
+    flex-grow: 2;
+    width: 40%;
+    justify-content: flex-start;
+  }
+
+  .main-section {
+    align-items: center;
+    width: 50%;
+  }
+
+  .circles {
+    width: 50%;
+  }
+
+  .circle1 {
+    position: absolute;
+    background: rgba(247, 136, 167, 0.6);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    right: 110px;
+  }
+
+  .circle2 {
+    position: absolute;
+    background: rgba(207, 130, 213, 0.6);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    right: 10px;
+    top: 205px;
+  }
+
+  .circle3 {
+    position: absolute;
+    background: rgba(247, 193, 162, 0.7);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    right: 10px;
+    top: 310px;
+  }
+
+  footer {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50 -50);
+    margin-bottom: 10px;
+  }
+}
